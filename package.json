@@ -1,12 +1,12 @@
 {
-  "name": "friendship",
-  "version": "1.0.0",
-  "description": "",
+  "name": "copula",
+  "version": "0.2.0",
+  "description": "Easy microservice web framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "scoin",
   "license": "ISC",
   "dependencies": {
     "ajv": "^4.1.5",
@@ -17,5 +17,22 @@
     "lodash": "^4.14.2",
     "morgan": "^1.7.0",
     "nconf": "^0.8.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoin/copula.git"
+  },
+  "keywords": [
+    "framework",
+    "microservices",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/scoin/copula/issues"
+  },
+  "homepage": "https://github.com/scoin/copula#readme"
 }
