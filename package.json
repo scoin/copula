@@ -1,0 +1,21 @@
+{
+  "name": "friendship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^4.1.5",
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "lodash": "^4.14.2",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4"
+  }
+}
