@@ -29,7 +29,7 @@ module.exports = function(){
     context.discovery = function(interface, config) { return require(path.normalize(__dirname + "/lib/discovery.js")).call(context, interface, config) }
 
      //init function
-    context.init = function(hostname, port){ require(path.normalize(__dirname + "/lib/init.js")).call(context, hostname, port) }
+    context.init = function(protocol, hostname, port){ require(path.normalize(__dirname + "/lib/init.js")).call(context, protocol, hostname, port) }
 
     return context;
 }
